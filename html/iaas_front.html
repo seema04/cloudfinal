@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <h1>WELCOME TO IAAS SERVICE!</h1>
+      <link href="iaas_style.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="grey">
+<body>
+
+<h2>Select an OS</h2>
+
+<form method=POST action="../cgi-bin/iaas_backend.cgi">
+    <div class="iaas">
+	    <p>OS Name: </p>
+      <span style="color:#1c87c9">OS Name: </span>
+           <select name = "os">
+           <option value="Ubuntu">Ubuntu</option>
+           <option value="RedHat">RedHat</option>
+           <option value="rhel7">rhel7</option>
+           <option value="CentOS">CentOS</option>
+      </select>
+      <p> RAM: </p> 
+      <span style="color:#1c87c9">RAM: </span>
+           <select name = "ram">
+           <option value="500">500MB</option>
+           <option value="1024">1GB</option>
+           <option value="4096">4GB</option>
+           </select> 
+      <p> CPU: </p>
+      <span style="color:#1c87c9">CPU: </span>
+           <select name = "cpu">
+           <option value="1">1</option>
+           <option value="2">2</option>
+           <option value="4">4</option>
+      </select> 
+      <p> Harddisk: </p>
+      <span style="color:#1c87c9">Harddisk: </span>
+           <select name = "hdd">
+           <option value="1">1Core</option>
+           <option value="2">2Core</option>
+           <option value="4">4Core</option>
+      </select> 
+ 
+           <input type="submit" value="submit">
+    </div>
+</form>
+
+</body>
+</html>

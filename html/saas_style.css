@@ -1,0 +1,66 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(saas.jpg);
+    background-size: cover;
+    font-family: Arial;
+
+}
+
+.saas
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;;
+	width: 290px;
+	height: 310px;
+	background-color: black;
+	color: afff;
+	left: 10%;
+	top: 40%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    opacity: 0.6
+}
+
+.saas p
+{
+	text-align: left;
+	font-weight: bold;
+}
+
+.saas input
+{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.saas input[type=submit]
+{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 0;
+	margin-top: 30px;
+	outline: none;
+	border:none;
+	background: #60adde;
+	opacity: 0.8;
+	border-radius: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+
+.saas input[type=submit]:hover
+{
+	background-color: darkorange;
+	transition: all 0.5s ease-in;
+}

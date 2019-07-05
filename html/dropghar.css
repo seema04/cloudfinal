@@ -1,0 +1,50 @@
+body
+{
+	background-image: url(drop.jpg); 
+	height: 100vh;
+	background-size: cover;
+}
+
+
+.ghardrop
+{
+  width: 75%;
+  height: 100px;
+  margin: 0px auto;
+
+}
+
+.ghardrop ul
+{
+  padding: 0px;
+}
+
+.ghardrop ul li
+{
+	float: left;
+	background-color: black;
+	color: white;
+	width: 150px;
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	font-size: 15px;
+	text-align: center;
+	opacity: 0.6;
+}
+
+.ghardrop ul li ul
+{
+	display: none;
+}
+
+.ghardrop ul li:hover > ul
+{
+  display: block;
+}
+
+.ghardrop ul li:hover
+{
+	background-color:green
+	opacity: 0.9;
+}
